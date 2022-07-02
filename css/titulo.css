@@ -1,0 +1,124 @@
+.title{
+ padding: 1rem;
+}
+
+.title__profile{
+    width: 6.125rem;
+    height: 6.125rem;
+    padding: .5rem;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title__bio{
+    font-family: 'Raleway';
+    color: #464646;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align:initial;
+    line-height: 1.625rem;
+    padding: .5rem;
+    
+}
+
+.title__subsection{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #464646;
+    font-size: .9rem;
+    font-weight: 400;
+    text-align:justify;
+    line-height: 1.625rem;
+    padding: .5rem;
+
+}
+
+.title__network{
+    display: flex;
+    justify-content: space-between;
+    text-align:justify;
+    font-family: 'Raleway';
+    color: #464646;
+    font-weight: 600;
+    font-size: .875rem;
+    list-style: none;
+    padding: .4rem 3.5rem;
+
+}
+
+@media only screen and (min-width: 768px){
+    .title{
+        display: flex;
+    }
+    
+    .title__div{
+        display: block;
+    }
+
+    .title__profile{
+        margin: 1%;
+        margin-left: 8%;
+        zoom: 150%;
+        float: right;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .title__bio{
+        
+        width: 751px;
+        height: 122px;
+        font-size: 49px;
+        line-height: 61px;
+        text-align: justify;
+        color: #464646;
+        margin-top: 2%;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 208px;
+        
+       
+    }
+
+    .title__div{
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .title__profile{
+        zoom: 250%;
+        margin-right: 10%;
+
+    }
+
+    .title__subsection{
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 5%;
+    }
+
+    .title__network{
+        width: 300px;
+        height: 40px;
+        padding: 2px;
+        gap: 32px;
+        image-orientation: inherit;
+    }
+
+    .title__network__item{
+        width: 90px;
+        height: 19px;
+    }
+    
+}
+
+
